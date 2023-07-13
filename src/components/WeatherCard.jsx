@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import axios from "axios";
 
-// Компонент для отображения информации о погоде в одном городе
+
 function WeatherCard({ city, onDelete }) {
   const [weather, setWeather] = useState(null);
   const [loading, setLoading] = useState(false);
@@ -9,7 +9,7 @@ function WeatherCard({ city, onDelete }) {
 
   const API_key = '29230438a0fe2de50da7461c174d88f8'
 
-  // Функция для получения данных о погоде с помощью API
+
   const fetchWeather = async () => {
     setLoading(true);
     setError(null);
@@ -24,14 +24,12 @@ function WeatherCard({ city, onDelete }) {
     setLoading(false);
   };
 
-  // Вызываем функцию для получения данных о погоде при монтировании компонента
   useEffect(() => {
     fetchWeather();
   }, []);
 
-  // Возвращаем JSX-разметку для отображения компонента
   return (
-    <div className="bg-white bg-[rgba(255,255,255,0.6)] shadow-lg rounded-lg p-4 m-4 w-64">
+    <div className="bg-white bg-[rgba(255,255,255,0.4)] shadow-lg rounded-lg p-4 m-4 w-64">
       <div className="flex justify-between items-center">
         <h2 className="text-3xl font-bold text-white">{city}</h2>
         <button

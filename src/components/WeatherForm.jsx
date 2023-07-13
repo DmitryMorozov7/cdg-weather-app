@@ -1,15 +1,12 @@
 import React, { useState } from "react";
 
-// Компонент для добавления нового города в закладки
 function WeatherForm({ onSubmit }) {
   const [value, setValue] = useState("");
 
-  // Функция для обработки изменения значения в поле ввода
   const handleChange = (e) => {
     setValue(e.target.value);
   };
 
-  // Функция для обработки отправки формы
   const handleSubmit = (e) => {
     e.preventDefault();
     if (value) {
@@ -18,7 +15,6 @@ function WeatherForm({ onSubmit }) {
     }
   };
 
-  // Возвращаем JSX-разметку для отображения компонента
   return (
     <form className="flex justify-center p-4 " onSubmit={handleSubmit}>
       <input
