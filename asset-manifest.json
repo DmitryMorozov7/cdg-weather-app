@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/cdg-weather-app/static/css/main.5abd4459.css",
-    "main.js": "/cdg-weather-app/static/js/main.e6879498.js",
+    "main.css": "/cdg-weather-app/static/css/main.069b2936.css",
+    "main.js": "/cdg-weather-app/static/js/main.45869114.js",
     "static/media/fon.jpg": "/cdg-weather-app/static/media/fon.377a5c44652b52c60190.jpg",
     "index.html": "/cdg-weather-app/index.html",
-    "main.5abd4459.css.map": "/cdg-weather-app/static/css/main.5abd4459.css.map",
-    "main.e6879498.js.map": "/cdg-weather-app/static/js/main.e6879498.js.map"
+    "main.069b2936.css.map": "/cdg-weather-app/static/css/main.069b2936.css.map",
+    "main.45869114.js.map": "/cdg-weather-app/static/js/main.45869114.js.map"
   },
   "entrypoints": [
-    "static/css/main.5abd4459.css",
-    "static/js/main.e6879498.js"
+    "static/css/main.069b2936.css",
+    "static/js/main.45869114.js"
   ]
 }
