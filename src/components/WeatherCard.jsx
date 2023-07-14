@@ -29,7 +29,7 @@ function WeatherCard({ city, onDelete }) {
   }, []);
 
   return (
-    <div className="bg-white bg-[rgba(255,255,255,0.4)] shadow-lg rounded-lg p-4 m-4 w-64">
+    <div className="bg-[rgba(255,255,255,0.4)] shadow-lg rounded-lg p-4 m-4 w-64">
       <div className="flex justify-between items-center">
         <h2 className="text-3xl font-bold text-white">{city}</h2>
         <button
